@@ -44,6 +44,11 @@ a{
   flex-grow: 1;
 }
 /*end display flex */
+/* start display grid */
+.d-grid{
+  display: grid;
+}
+/* end display grid */
 /* start position */
 .p-relative{
   position: relative;
@@ -52,3 +57,21 @@ a{
   position: absolute;
 }
 /* end position */
+/*start global formate */
+.d-block{
+  display: block;
+}
+.padding-30{
+  padding: 30px;
+}
+.margin-b-10{
+  margin-bottom: 10px;
+}
+/*end global formate */
+
+/*start home page formate */
+.grid-system{
+  grid-template-columns: repeat(12 , 1fr);
+  grid-template-rows: repeat(3 , auto);
+}
+/*end home page formate */

@@ -1,0 +1,373 @@
+/* start divide-system media  */
+@media (min-width:1200px) {
+    .content .commerce .part-one{
+        grid-area: span 4 / span 3;
+        order: 1;
+    }
+    .content .commerce .part-three{
+        grid-area: span 2 / span 4;
+        order: 2;
+    }
+    .content .commerce .part-two{
+        grid-area: span 2 / span 5;
+        order: 3;
+    }
+    .content .commerce .part-four{
+        grid-area: span 2 / span 9;
+        order: 4;
+    }
+}
+@media (min-width:900px) and (max-width:1199px) {
+    .content .commerce .part-one{
+        grid-area: span 3 / span 5;
+        order: 1;
+    }
+    .content .commerce .part-three{
+        grid-area: span 1 / span 7;
+        order: 3;
+    }
+    .content .commerce .part-two{
+        grid-area: span 2 / span 7;
+        order: 2;
+    }
+    .content .commerce .part-four{
+        grid-area: span 1 / span 12;
+        order: 4;
+        /* grid-row: span 3; */
+    }
+}
+@media (min-width:0px) and (max-width:899px) {
+    .content .commerce .part-one{
+        grid-area: span 4 / span 12;
+        order: 1;
+    }
+    .content .commerce .part-three{
+        grid-area: span 1 / span 12;
+        order: 3;
+    }
+    .content .commerce .part-two{
+        grid-area: span 1 / span 12;
+        order: 2;
+    }
+    .content .commerce .part-four{
+        grid-area: span 1 / span 12;
+        order: 4;
+    }
+}
+/* start divide-system media  */
+/* start part-one */
+.content .commerce .part-one{
+    background-color: var(--back-color);
+    border-right: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
+}
+.content .commerce .part-one .date {
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+.content .commerce .part-one .date p:first-child{
+    font-size: 13px;
+    color: var(--sub-color);
+    margin-bottom: 10px;
+}
+.content .commerce .part-one .date p:last-child{
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.content .commerce .part-one .updates {
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+.content .commerce .part-one .updates p{
+    color: var(--sub-color);
+    font-size: 13px;
+}
+.content .commerce .part-one .updates .updates-content div i{
+    color: var(--main-color);
+    margin-right: 8px;
+    width: 35px;
+    height: 35px;
+    background-color: var(--icon-bacgroung);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 16px;
+}
+.content .commerce .part-one .updates .updates-content div .number{
+    font-size: 25px;
+    font-weight: 600;
+}
+.content .commerce .part-one .updates .updates-content div span:last-child{
+    font-size: 15px;
+    color: var(--text-color);
+}
+@media (min-width:0px) and (max-width:899px)  {
+    .content .commerce .part-one .updates .updates-content{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .content .commerce .part-one .updates .updates-content div{
+        margin: 0;
+        border-left: 1px solid var(--border-color);
+        padding-left: 20px;
+        width: calc(100% / 3);
+    }
+    .content .commerce .part-one .updates .updates-content div i ,
+    .content .commerce .part-one .updates .updates-content div span{
+        display: flex;
+        margin-bottom: 15px;
+    }
+}
+.content .commerce .part-one .schedule > p{
+    font-size: 13px;
+    color: var(--sub-color);
+}
+.content .commerce .part-one .schedule .schedule-content .box {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: var(--icon-bacgroung);
+    margin-bottom: 5px;
+    position: relative;
+    transition: var(--transition);
+}
+.content .commerce .part-one .schedule .schedule-content .box:hover {
+    background-color: var(--border-color);
+}
+.content .commerce .part-one .schedule .schedule-content .box .box-detail p{
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.content .commerce .part-one .schedule .schedule-content .box .box-detail span{
+    font-size: 12px;
+    color: var(--sub-color);
+}
+.content .commerce .part-one .schedule .schedule-content .box .box-images{
+    display: flex;
+    align-items: flex-end;
+}
+.content .commerce .part-one .schedule .schedule-content .box .box-images img{
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+}
+.content .commerce .part-one .schedule .schedule-content .box .box-images img:not(:last-child){
+    right: 0;
+    z-index: 4;
+}
+.content .commerce .part-one .schedule .schedule-content .box .box-images img:nth-child(2){
+    right: 13px;
+    z-index: 3;
+}
+.content .commerce .part-one .schedule .schedule-content .box .box-images img:nth-child(3){
+    right: 26px;
+    z-index: 2;
+}
+.content .commerce .part-one .schedule .schedule-content .box .box-images img:nth-child(4){
+    right: 39px;
+    z-index: 1;
+}
+.content .commerce .part-one .schedule .schedule-content .link{
+    color: var(--main-color);
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+}
+.content .commerce .part-one .schedule .schedule-content a{
+    transition: var(--transition);
+    color: var(--main-color);
+    padding: 5px;
+}
+.content .commerce .part-one .schedule .schedule-content a:hover{
+    background-color: var(--hover-color);
+    border-radius: 10px;
+}
+.content .commerce .part-one .schedule .schedule-content a i{
+    margin-left: 5px 10px;
+}
+.content .commerce .part-two{
+    border-bottom: 1px solid var(--border-color);
+    min-height: 300px;
+}
+.content .commerce .part-two .part-two-image{
+    background-image: url(../../assets/image/homepage/part-two.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    padding: 10px;
+    border-radius: 15px;
+    color: #066f49;
+}
+.content .commerce .part-two .part-two-image .part-two-details p{
+    font-weight: 600;
+    font-size: 20px;
+}
+.content .commerce .part-two .part-two-image .part-two-details span{
+    font-weight: 600;
+    font-size: 35px;
+    margin-top: 10px;
+    display: block;
+}
+.content .commerce .part-three{
+    border-bottom: 1px solid var(--border-color);
+    border-right: 1px solid var(--border-color);
+}
+.content .commerce .part-three .part-three-box h4{
+    font-size: 20px;
+    margin-bottom:10px ;
+}
+.content .commerce .part-three .part-three-box p{
+    font-size: 15px;
+    color: var(--sub-color);
+    margin-bottom: 20px;
+}
+.content .commerce .part-three .part-three-box .profit-footer .earn span:first-child{
+    color: var(--text-color);
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.content .commerce .part-three .part-three-box .profit-footer .earn span:nth-child(2){
+    margin-right: 5px;
+    width: 40px;
+    padding: 2px;
+    border-radius: 20px;
+    font-size: 13px;
+}
+.content .commerce .part-three .Profit .profit-footer .earn span:nth-child(2){
+    background-color: #daf1e9;
+    border: 1px solid #a6ddc9;
+}
+.content .commerce .part-three .Revenue .profit-footer .earn span:nth-child(2){
+    background-color: #feeedf;
+    border: 1px solid #fdd6b2;
+}
+.content .commerce .part-three .part-three-box .profit-footer .earn span:last-child{
+    color: var(--sub-color);
+}
+.content .commerce .part-three .Profit{
+    border-bottom: 1px solid var(--border-color);
+}
+@media (max-width:500px) {
+    .content .commerce .part-three .part-three-box h4{
+        font-size: 17px;
+    }
+    .content .commerce .part-three .part-three-box p{
+        font-size: 12px;
+    }
+    .content .commerce .part-three .part-three-box .profit-footer .earn span:first-child{
+        font-size: 20px;
+    }
+    .content .commerce .part-three .part-three-box .profit-footer .earn span:nth-child(2){
+        font-size: 11px;
+        display: block;
+        margin-bottom: 5px;
+    }
+}
+.content .commerce .part-four{
+    border-bottom: 1px solid var(--border-color);
+}
+.content .commerce .part-four .part-four-header{
+    margin-bottom: 20px;
+} 
+.content .commerce .part-four .part-four-header .title h4{
+    font-size: 20px;
+    font-weight: 500;
+} 
+.content .commerce .part-four .part-four-header .title p{
+    font-size: 13px;
+    color: var(--text-color);
+}
+.content .commerce .part-four .part-four-header .stats span:not(:last-child){
+    font-size: 13px;
+    padding-left: 20px;
+    margin-left: 10px;
+    color: var(--text-color);
+}
+.content .commerce .part-four .part-four-header .stats span:first-child{
+    position: relative;
+} 
+.content .commerce .part-four .part-four-header .stats span:nth-child(2){
+    position: relative;
+} 
+.content .commerce .part-four .part-four-header .stats span:first-child::before, 
+.content .commerce .part-four .part-four-header .stats span:nth-child(2):before{
+    content: "";
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 2px;
+}
+.content .commerce .part-four .part-four-header .stats span:first-child::before{
+    background-color: var(--main-color);
+}
+.content .commerce .part-four .part-four-header .stats span:nth-child(2):before{
+    background-color: #c0504e;
+}
+.content .commerce .part-four .part-four-header .stats span:last-child{
+    margin-left: 20px;
+    background-color: #daf1e9;
+    padding: 3px 5px;
+    border-radius: 10px;
+    border: 1px solid #a6ddc9;
+    color: #066f49;
+    font-size: 12px;
+} 
+.content .commerce .part-four .part-four-header select{
+    border: none;
+    outline: none;
+    background-color: #eaf3fd;
+    transition: var(--transition);
+    border-radius: 10px;
+    padding: 5px 0px 5px 10px;
+    color: var(--text-color);
+    font-size: 14px;
+    color: var(--text-color);
+    cursor: pointer;
+}
+.content .commerce .part-four .part-four-header select:hover{
+    background-color: var(--hover-color);
+}
+.content .commerce .part-four .part-four-header select:focus{
+    border: 1px solid var(--main-color);
+    background-color: #eaf3fd;
+}
+.content .commerce .part-four .part-four-header select option{
+    background-color: white;
+    outline: none;
+    border: none;
+}
+.content .commerce .part-four .part-four-header select option:hover{
+    background-color: var(--icon-bacgroung);
+}
+.content .commerce .part-four .part-four-image{
+    width: 100%;
+}
+.content .commerce .part-four .part-four-image img{
+    width: 100%;
+}
+@media ((min-width:0px) and (max-width:899px) ) {
+    .content .commerce .part-four .part-four-header{
+        flex-wrap: wrap;
+    }
+    .content .commerce .part-four .part-four-header .title{
+        margin-bottom: 20px;
+    }
+    .content .commerce .part-four .part-four-header .stats{
+        margin-bottom: 20px;
+    }
+}
+.content .commerce .part-four 
+.content .commerce .part-two ,
+.content .commerce .part-three,
+.content .commerce .part-four{
+    background-color: var(--main-back-color);
+}
+/* end part-one */

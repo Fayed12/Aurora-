@@ -4,7 +4,7 @@ const bars = document.getElementById("bar").addEventListener("click" , function(
 });
 
 let scrolling = document.getElementById("links-bar");
-scrolling.addEventListener("mouseenter" , function(){
+scrolling.addEventListener("mouseover" , function(){
     scrolling.style.overflowY="auto";
 })
 scrolling.addEventListener("mouseleave" , function(){
