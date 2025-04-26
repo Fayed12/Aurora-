@@ -259,7 +259,7 @@ header .header-section .header-content .info .last-image::before{
     color: black;
 }
 .all-page nav .links ul li .soon{
-    color: var(--sub-color);
+    color: #999;
 }
 .all-page nav .links ul li a:hover{
     background-color: #ebf2f5;
