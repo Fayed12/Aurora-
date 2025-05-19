@@ -72,7 +72,7 @@
     margin-bottom: 10px;
 }
 .content .commerce .part-one .date p:last-child{
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 600;
     letter-spacing: 1px;
 }
@@ -95,14 +95,14 @@
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    font-size: 16px;
+    font-size: 14px;
 }
 .content .commerce .part-one .updates .updates-content div .number{
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 600;
 }
 .content .commerce .part-one .updates .updates-content div span:last-child{
-    font-size: 15px;
+    font-size: 13px;
     color: var(--text-color);
 }
 @media (min-width:0px) and (max-width:899px)  {
@@ -123,7 +123,7 @@
     }
 }
 .content .commerce .part-one .schedule > p{
-    font-size: 13px;
+    font-size: 11px;
     color: var(--sub-color);
 }
 .content .commerce .part-one .schedule .schedule-content .box {
@@ -138,11 +138,11 @@
     background-color: var(--border-color);
 }
 .content .commerce .part-one .schedule .schedule-content .box .box-detail p{
-    font-size: 14px;
+    font-size: 13px;
     margin-bottom: 10px;
 }
 .content .commerce .part-one .schedule .schedule-content .box .box-detail span{
-    font-size: 12px;
+    font-size: 10px;
     color: var(--sub-color);
 }
 .content .commerce .part-one .schedule .schedule-content .box .box-images{
@@ -217,26 +217,30 @@
     border-right: 1px solid var(--border-color);
 }
 .content .commerce .part-three .part-three-box h4{
-    font-size: 20px;
+    font-size: 16px;
     margin-bottom:10px ;
 }
+.content .commerce .part-three .Profit , 
+.content .commerce .part-three .Revenue{
+    padding: 10px 20px;
+}
 .content .commerce .part-three .part-three-box p{
-    font-size: 15px;
+    font-size: 11px;
     color: var(--sub-color);
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .content .commerce .part-three .part-three-box .profit-footer .earn span:first-child{
     color: var(--text-color);
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 600;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 .content .commerce .part-three .part-three-box .profit-footer .earn span:nth-child(2){
     margin-right: 5px;
     width: 40px;
-    padding: 2px;
+    padding: 3px;
     border-radius: 20px;
-    font-size: 13px;
+    font-size: 11px;
 }
 .content .commerce .part-three .Profit .profit-footer .earn span:nth-child(2){
     background-color: #daf1e9;
@@ -248,6 +252,7 @@
 }
 .content .commerce .part-three .part-three-box .profit-footer .earn span:last-child{
     color: var(--sub-color);
+    font-size: 13px;
 }
 .content .commerce .part-three .Profit{
     border-bottom: 1px solid var(--border-color);
@@ -275,25 +280,23 @@
     margin-bottom: 20px;
 } 
 .content .commerce .part-four .part-four-header .title h4{
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
 } 
 .content .commerce .part-four .part-four-header .title p{
-    font-size: 13px;
+    font-size: 11px;
     color: var(--text-color);
 }
 .content .commerce .part-four .part-four-header .stats span:not(:last-child){
-    font-size: 13px;
+    font-size: 10px;
     padding-left: 20px;
     margin-left: 10px;
     color: var(--text-color);
 }
-.content .commerce .part-four .part-four-header .stats span:first-child{
-    position: relative;
-} 
+.content .commerce .part-four .part-four-header .stats span:first-child ,
 .content .commerce .part-four .part-four-header .stats span:nth-child(2){
     position: relative;
-} 
+}
 .content .commerce .part-four .part-four-header .stats span:first-child::before, 
 .content .commerce .part-four .part-four-header .stats span:nth-child(2):before{
     content: "";
@@ -318,17 +321,17 @@
     border-radius: 10px;
     border: 1px solid #a6ddc9;
     color: #066f49;
-    font-size: 12px;
+    font-size: 10px;
 } 
 .content .commerce  select{
     border: none;
     outline: none;
     background-color: #eaf3fd;
     transition: var(--transition);
-    border-radius: 10px;
-    padding: 5px 0px 5px 10px;
+    border-radius: 7px;
+    padding: 3px 0px 3px 5px;
     color: var(--text-color);
-    font-size: 14px;
+    font-size: 12px;
     color: var(--text-color);
     cursor: pointer;
     height: 30px;
@@ -350,9 +353,11 @@
 }
 .content .commerce .part-four .part-four-image{
     width: 100%;
+    height: 200px;
 }
 .content .commerce .part-four .part-four-image img{
     width: 100%;
+    height: 100%;
 }
 @media ((min-width:0px) and (max-width:899px) ) {
     .content .commerce .part-four .part-four-header{
@@ -460,7 +465,7 @@
     background-color: var(--main-back-color);
 }
 .content .commerce .products-stats .stats-header .header-text h3{
-    font-size: 20px;
+    font-size: 18px;
     margin-bottom: 10px;
 }
 .content .commerce .products-stats .stats-header{
@@ -468,7 +473,7 @@
 }
 .content .commerce .products-stats .stats-header .header-text p{
     color: var(--text-color);
-    font-size: 15px;
+    font-size: 12px;
 }
 .content .commerce .products-stats .stats-header .header-search .input-field input{
     width: 230px;
@@ -480,6 +485,9 @@
     background-color: var(--back-color);
     transition: var(--transition);
     padding-left:30px;
+}
+.content .commerce .products-stats .stats-header .header-search .input-field input::placeholder{
+    font-size: 13px;
 }
 .content .commerce .products-stats .stats-header .header-search .input-field input:hover{
     background-color: var(--icon-bacgroung);
@@ -493,6 +501,7 @@
     transform: translateY(-50%);
     left: 7px;
     color: var(--text-color);
+    font-size: 13px;
 }
 .content .commerce .products-stats .stats-header .header-search  i[class *=ellipsis]{
     cursor: pointer;
@@ -528,7 +537,7 @@
     border-collapse: collapse;
     table-layout: fixed;
     color: var(--text-color);
-    font-size: 14px;
+    font-size: 12px;
 }
 .content .commerce .products-stats .stats-table .table-scroll::-webkit-scrollbar-track{
     background-color: white;
@@ -544,7 +553,7 @@
     height: 50px;
     background-color: var(--back-color);
     text-align: left;
-    font-size: 15px;
+    font-size: 12px;
     color: var(--text-color);
 }
 .content .commerce .products-stats .stats-table .table-scroll thead tr th:first-child{
@@ -552,14 +561,14 @@
 }
 .content .commerce .table-scroll thead tr th:not(:first-child){
     padding-left: 10px;
-    min-width: 100px;
+    min-width: 80px;
 }
 .content .commerce .table-scroll table tbody tr:not(:last-child){
     border-bottom: 1px solid var(--border-color);
 }
 .content .commerce .table-scroll table tbody tr td:nth-child(2),
 .content .commerce .table-scroll table tbody tr td:nth-child(3){
-    min-width: 225px;
+    min-width: 190px;
     height: 60px;
     display: table-cell;
     padding-left: 10px;
@@ -630,11 +639,13 @@
 .content .commerce .table-scroll table tbody tr td:nth-child(6) .table-stock{
     background-color: #daf1e9;
     border: 1px solid #a6ddc9;
+    font-size: 10px;
     color: #177956;
 }
 .content .commerce .table-scroll table tbody tr td:nth-child(6) .low{
     background-color: #feeedf;
     border: 1px solid #fdd6b2;
+    font-size: 10px;
     color: #ac631d;
 }
 .content .commerce .table-scroll table tbody tr td:nth-child(6) i{
@@ -732,12 +743,12 @@
 }
 .content .commerce .market-header .market-text h3{
     color: var(--text-color);
-    font-size: 20px;
+    font-size: 17px;
     margin-bottom: 10px;
 }
 .content .commerce .market-header .market-text p{
     color: var(--text-color);
-    font-size: 15px;
+    font-size: 12px;
 }
 .content .commerce .market-header i{
     width: 30px;
@@ -812,19 +823,6 @@
 }
 /* end storage  */
 /* start market  */
-/* @media (min-width:768px) and (max-width:1199px) {
-    .content .commerce .market .market-stats{
-        flex-direction: row;
-        justify-content: space-between;
-    }
-    .content .commerce .market .market-stats .image-stats{
-        flex-basis: 40%;
-        margin-bottom: 0;
-    }
-    .content .commerce .market .brands-stats{
-        flex-basis: 55%;
-    }
-} */
 .content .commerce .market{
     background-color: var(--back-color);
 }
@@ -877,11 +875,11 @@
 .content .commerce .market .brands-stats .brand-box .brand-image span{
     margin-bottom: 5px;
     display: inline-block;
-    font-size: 12px;
+    font-size: 11px;
 }
 .content .commerce .market .brands-stats .brand-box .brand-image p {
     color: initial;
-    font-size: 14px;
+    font-size: 13px;
 }
 @media (min-width:900px) {
     .content .commerce .market .brands-stats .brand-box .brand-image p{
@@ -891,9 +889,9 @@
     }
 }
 .content .commerce .market .brands-stats .brand-box .amount-stats {
-    background-color: #d3ede6;
-    border: 1px solid #066f49;
-    color: #066f49;
+    background-color: var(--green-hover-color);
+    border: 1px solid var(--green-color);
+    color: var(--green-color);
     padding: 2px 7px;
     border-radius: 20px;
     font-size: 10px;
@@ -905,14 +903,14 @@
     font-size: 10px;
 }
 .content .commerce .market .brands-stats .brand-box .minus{
-    background-color: #e9adb8;
-    border: 1px solid #e9adb8;
-    color: #b11d37;
+    background-color: var(--red-hover-color);
+    border: 1px solid var(--red-color);
+    color: var(--red-color);
 }
 .content .commerce .market .brands-stats .brand-box .middle{
-    background-color: #f7eadc;
-    border: 1px solid #f8d3b0;
-    color: #ac631d;
+    background-color: var(--orange-hover-color);
+    border: 1px solid var(--orange-color);
+    color: var(--orange-color);
 }
 /* end market  */
 /* start clients */
@@ -925,15 +923,15 @@
     align-items: center;
 }
 .content .commerce .month-header h3{
-    font-size: 25px;
+    font-size: 18px;
     margin-bottom: 10px;
 }
 .content .commerce .month-header p{
-    font-size: 15px;
+    font-size: 12px;
 }
 .content .commerce .world-image {
     overflow: hidden;
-    padding-bottom: 20px;
+    /* padding-bottom: 20px; */
     height: 400px;
 }
 .content .commerce .world-image img{
@@ -993,29 +991,30 @@
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    font-size: 12px;
+    font-size: 11px;
     color: var(--main-color);
     position: relative;
     z-index: 100;
 }
 .content .commerce .activities .activities-scroll ul li .activity-text{
     padding-bottom: 15px;
+    width: 100%;
 }
 .content .commerce .activities .activities-scroll ul li .activity-text > p {
     color: initial;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 500;
     letter-spacing: .5px;
     margin-bottom: 10px;
 }
 .content .commerce .activities .activities-scroll ul li .activity-text .hover-text p{
-    font-size: 12px;
+    font-size: 10px;
     line-height: 1.3;
     width: 83%;
     text-align: justify;
 }
 .content .commerce .activities .activities-scroll ul li .activity-text .hover-text span{
-    font-size: 12px;
+    font-size: 10px;
     color: rgb(156, 174, 184);
     padding-right: 10px;
 }
