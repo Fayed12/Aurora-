@@ -377,11 +377,24 @@ header .header-section .header-content .info .last-image::before{
         background-color:var(--back-color);
         top: 60px;
         height: calc(100vh - 60px);
-        display: none;
+        position: absolute;
+        left: -100%;
         width: 255px;
+        transition: 1s;
+    }
+    .overlay{
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 100;
+        -webkit-backdrop-filter: blur(0px) brightness(50%);
+        backdrop-filter: blur(1px) brightness(50%);
     }
     nav.show{
-        display: block;
+        left: 0%;
+        transition: var(--transition);
     }
 }
 /* start make active */
